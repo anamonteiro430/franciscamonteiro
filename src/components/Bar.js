@@ -1,6 +1,6 @@
 import React from 'react';
 import js from './../images/js.svg';
-import react from './../images/react.png';
+import react from './../images/react.svg';
 
 const Bar = () => {
 	return (
