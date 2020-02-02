@@ -12,7 +12,7 @@ const Home = () => {
 				<h1>Ana Francisca Monteiro</h1>
 				<h2>FullStack Web Developer</h2>
 			</div>
-			<section>
+			<section className='social'>
 				<img src={github} alt='sss' />
 				<img src={linkedin} alt='' />
 			</section>

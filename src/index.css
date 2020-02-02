@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Code|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 body {
 	margin: 0;
@@ -22,6 +23,18 @@ body {
 
 .border {
 	border: 1px solid grey;
+	border-radius: 20px;
+	margin-top: 5vh;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.social {
+	border: 1px solid white;
+	width: 20%;
+	margin-left: 40%;
+	display: flex;
+	justify-content: space-around;
 }
 
 .numb {
@@ -44,11 +57,14 @@ body {
 h1 {
 	color: white;
 	font-size: 3.5em;
+	font-family: 'Roboto';
+	text-align: center;
 }
 
 h2 {
 	color: white;
 	font-size: 2em;
+	text-align: center;
 }
 
 .reactcode {
@@ -61,12 +77,12 @@ h2 {
 }
 
 .nav {
-	border: 1px solid white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	margin-top: 5vh;
+	font-family: 'Indie Flower', cursive;
 }
 
 .nav-item {

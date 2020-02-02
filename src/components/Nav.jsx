@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import react from './../images/react.svg';
+import Resume from './Resume';
+import Home from './Home';
 
 const Nav = () => {
 	return (
@@ -17,6 +19,9 @@ const Nav = () => {
 				<Link className='nav-item'>Contact</Link>
 			</div>
 			<Switch>
+				<Route exact path='/'>
+					<Home />
+				</Route>
 				<Route path='/resume'>
 					<Resume />
 				</Route>
